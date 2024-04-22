@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<employees>
+    <employee>
+        <Id>101</Id>
+        <Name>Vandana</Name>
+        <Salary>100000</Salary>
+    </employee>
+    <employee>
+        <Id>102</Id>
+        <Name>Parul</Name>
+        <Salary>20000</Salary>
+    </employee>
+    <employee>
+        <Id>103</Id>
+        <Name>Avinash</Name>
+        <Salary>1000000</Salary>
+    </employee>
+    <employee>
+        <Id>104</Id>
+        <Name>Mensi</Name>
+        <Salary>40000</Salary>
+    </employee>
+
+    <employee>
+        <Id>105</Id>
+        <Name>Hemisha</Name>
+        <Salary>81000</Salary>
+    </employee>
+
+    <employee>
+        <Id>106</Id>
+        <Name>vandana</Name>
+        <Salary>90000</Salary>
+    </employee>
+
+    <employee>
+        <Id>107</Id>
+        <Name>ABC</Name>
+        <Salary>40000</Salary>
+    </employee>
+
+    <employee>
+        <Id>108</Id>
+        <Name>PQR</Name>
+        <Salary>40000</Salary>
+    </employee>
+</employees>

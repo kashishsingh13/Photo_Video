@@ -1,0 +1,136 @@
+{
+  "employee": [
+    {
+      "Id": "101",
+      "Name": "Vandana",
+      "Salary": "100000",
+      "hobbies": [
+        {
+          "hobby": "Cricket"
+        },
+        {
+          "hobby": "chess"
+        },
+        {
+          "hobby": "full_racket"
+        }
+      ]
+    },
+    {
+      "Id": "102",
+      "Name": "Vandana",
+      "Salary": "100000",
+      "hobbies": [
+        {
+          "hobby": "carrom"
+        },
+        {
+          "hobby": "chess"
+        },
+        {
+          "hobby": "ball"
+        }
+      ]
+    },
+    {
+      "Id": "103",
+      "Name": "John",
+      "Salary": "95000",
+      "hobbies": [
+        {
+          "hobby": "Cricket"
+        },
+        {
+          "hobby": "full_racket"
+        }
+      ]
+    },
+    {
+      "Id": "104",
+      "Name": "Alice",
+      "Salary": "110000",
+      "hobbies": [
+        {
+          "hobby": "indor"
+        },
+        {
+          "hobby": "outdor"
+        }
+      ]
+    },
+    {
+      "Id": "105",
+      "Name": "Bob",
+      "Salary": "105000",
+      "hobbies": [
+        {
+          "hobby": "Cricket"
+        },
+        {
+          "hobby": "chess"
+        },
+        {
+          "hobby": "full_racket"
+        }
+      ]
+    },
+    {
+      "Id": "106",
+      "Name": "Carol",
+      "Salary": "115000",
+      "hobbies": [
+        {
+          "hobby": "Cricket"
+        },
+        {
+          "hobby": "chess"
+        },
+        {
+          "hobby": "full_racket"
+        }
+      ]
+    },
+    {
+      "Id": "107",
+      "Name": "David",
+      "Salary": "90000",
+      "hobbies": [
+        {
+          "hobby": "chess"
+        },
+        {
+          "hobby": "full_racket"
+        }
+      ]
+    },
+    {
+      "Id": "108",
+      "Name": "Eve",
+      "Salary": "120000",
+      "hobbies": [
+        {
+          "hobby": "Cricket"
+        },
+        {
+          "hobby": "chess"
+        },
+        {
+          "hobby": "full_racket"
+        }
+      ]
+    },
+    {
+      "Id": "109",
+      "Name": "Frank",
+      "Salary": "98000",
+      "hobbies": [
+        {
+          "hobby": "Cricket"
+        },
+        {
+          "hobby": "chess"
+        }
+      ]
+    }
+  ]
+}
