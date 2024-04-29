@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="linerlayout"/>
+    <item type="id" name="name"/>
+    <item type="id" name="cancel"/>
+    <item type="id" name="oh"/>
+    <item type="id" name="hozi"/>
+    <item type="id" name="vertical"/>
+    <item type="id" name="relativeLayout"/>
+</resources>
