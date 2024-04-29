@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linerlayout"
+    android:orientation="vertical"
+    tools:context=".ViewActivity">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:weightSum="100">-->
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="10dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:backgroundTint="@color/black"-->
+<!--            android:layout_weight="70"/>-->
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:backgroundTint="#EA0B0B"-->
+<!--            android:layout_weight="20"/>-->
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:backgroundTint="#2196F3"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_weight="10"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/name"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="kashish"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/cancel"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/name"-->
+<!--            android:layout_marginTop="2dp"-->
+<!--            android:text="Cancel" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/oh"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/name"-->
+<!--            android:layout_toRightOf="@+id/cancel"-->
+<!--            android:text="Ok" />-->
+<!--    </RelativeLayout>-->
+
+<!--    <HorizontalScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:id="@+id/hozi">-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:foregroundGravity="center"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_margin="20dp"-->
+<!--                android:src="#D5B71F" />-->
+
+<!--            <ImageView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--                android:layout_margin="20dp"-->
+<!--            android:src="#D51F1F" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_margin="20dp"-->
+<!--                android:src="#2196F3" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_margin="20dp"-->
+<!--                android:src="@color/black" />-->
+
+<!--        </LinearLayout>-->
+<!--    </HorizontalScrollView>-->
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:id="@+id/vertical">-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:foregroundGravity="center"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_margin="20dp"-->
+<!--                android:src="#D5B71F" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_margin="20dp"-->
+<!--                android:src="#D51F1F" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_margin="20dp"-->
+<!--                android:src="#2196F3" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_margin="20dp"-->
+<!--                android:src="@color/black" />-->
+
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+
+</LinearLayout>
