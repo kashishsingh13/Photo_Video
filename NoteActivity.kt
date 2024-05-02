@@ -136,3 +136,70 @@ class NoteActivity : AppCompatActivity() {
         }
     }
 }
+//import android.content.Intent
+//import android.os.Bundle
+//import androidx.appcompat.app.AppCompatActivity
+//import kotlinx.android.synthetic.main.activity_second.*
+//import kotlin.random.Random
+//
+//class SecondActivity : AppCompatActivity() {
+//
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        setContentView(R.layout.activity_second)
+//
+//        button.setOnClickListener {
+//            startRandomActivity()
+//        }
+//    }
+//
+//    private fun startRandomActivity() {
+//        val randomActivityIndex = Random.nextInt(4)
+//        when (randomActivityIndex) {
+//            0 -> startActivityWithFlag(FirstActivity::class.java)
+//            1 -> startActivityWithFlag(SecondActivity::class.java)
+//            2 -> startActivityWithFlag(ThirdActivity::class.java)
+//            3 -> startActivityWithFlag(FourthActivity::class.java)
+//        }
+//    }
+//
+//    private fun startActivityWithFlag(activityClass: Class<*>) {
+//        val intent = Intent(this, activityClass)
+//        intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+//        startActivity(intent)
+//    }
+//
+//    override fun onBackPressed() {
+//        startActivityWithFlag(MainActivity::class.java)
+//        finish() // Finish this activity
+//    }
+//}
+//import android.content.Intent
+//import android.os.Bundle
+//import androidx.appcompat.app.AppCompatActivity
+//import kotlinx.android.synthetic.main.activity_main.*
+//import kotlin.random.Random
+//
+//class MainActivity : AppCompatActivity() {
+//
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        setContentView(R.layout.activity_main)
+//
+//        button.setOnClickListener {
+//            val randomActivityIndex = Random.nextInt(4)
+//            when (randomActivityIndex) {
+//                0 -> startActivityWithFlag(FirstActivity::class.java)
+//                1 -> startActivityWithFlag(SecondActivity::class.java)
+//                2 -> startActivityWithFlag(ThirdActivity::class.java)
+//                3 -> startActivityWithFlag(FourthActivity::class.java)
+//            }
+//        }
+//    }
+//
+//    private fun startActivityWithFlag(activityClass: Class<*>) {
+//        val intent = Intent(this, activityClass)
+//        intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+//        startActivity(intent)
+//    }
+//}
