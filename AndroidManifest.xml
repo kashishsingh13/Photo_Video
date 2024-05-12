@@ -2,27 +2,38 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
-        tools:ignore="ScopedStorage" />
-    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
 
     <application
+
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:requestLegacyExternalStorage="true"
-        android:requestRawExternalStorageAccess="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PhotosApplication"
+        android:theme="@style/Theme.RandomApplication"
         tools:targetApi="31">
         <activity
-            android:name=".ViewActivity"
-            android:exported="true" >
+            android:name=".InfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PageActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".page2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page1Activity"
+            android:exported="true">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 
@@ -30,10 +41,28 @@
 <!--            </intent-filter>-->
         </activity>
         <activity
-            android:name=".DisplayActivity"
+            android:name=".FourActivity"
+            android:launchMode="standard"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdActivity"
+            android:launchMode="standard"
+            android:exported="false" />
+        <activity
+            android:name=".secondActivity"
+            android:launchMode="standard"
+            android:exported="false" />
+        <activity
+            android:name=".FiirstActivity"
+            android:launchMode="standard"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:clearTaskOnLaunch="true"
+            android:alwaysRetainTaskState="false"
+            android:excludeFromRecents="true"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,15 +71,22 @@
             </intent-filter>
         </activity>
 
-        <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.photosapplication.provider"
-            android:exported="false"
-            android:grantUriPermissions="true">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths" />
-        </provider>
+        <receiver android:name=".CallReceiver"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".BootReceiver"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
